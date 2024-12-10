@@ -1,0 +1,61 @@
+return {
+  'xiyaowong/transparent.nvim',
+  config = function()
+    require('transparent').setup {
+      extra_groups = { -- table/string: additional groups to be cleared
+        'NvimTreeNormal', -- add this line to include NeoTree
+        'NvimTreeEndOfBuffer',
+        'NeoTreeNormal', -- add this line to include NeoTree
+        'NeoTreeEndOfBuffer',
+        -- Lualine specific groups
+        -- 'lualine_a_normal',
+        -- 'lualine_b_normal',
+        -- 'lualine_c_normal',
+        -- 'lualine_x_normal',
+        -- 'lualine_y_normal',
+        -- 'lualine_z_normal',
+        -- 'lualine_a_insert',
+        -- 'lualine_b_insert',
+        -- 'lualine_c_insert',
+        -- 'lualine_x_insert',
+        -- 'lualine_y_insert',
+        -- 'lualine_z_insert',
+        -- 'lualine_a_visual',
+        -- 'lualine_b_visual',
+        -- 'lualine_c_visual',
+        -- 'lualine_x_visual',
+        -- 'lualine_y_visual',
+        -- 'lualine_z_visual',
+        -- 'lualine_a_replace',
+        -- 'lualine_b_replace',
+        -- 'lualine_c_replace',
+        -- 'lualine_x_replace',
+        -- 'lualine_y_replace',
+        -- 'lualine_z_replace',
+        -- 'lualine_a_command',
+        -- 'lualine_b_command',
+        -- 'lualine_c_command',
+        -- 'lualine_x_command',
+        -- 'lualine_y_command',
+        -- 'lualine_z_command',
+
+        -- Barbar specific groups
+        'BufferCurrent',
+        'BufferCurrentIndex',
+        'BufferCurrentMod',
+        'BufferCurrentSign',
+        'BufferCurrentTarget',
+        'BufferVisible',
+        'BufferVisibleIndex',
+        'BufferVisibleMod',
+        'BufferVisibleSign',
+        'BufferVisibleTarget',
+        'BufferInactive',
+        'BufferInactiveIndex',
+        'BufferInactiveMod',
+        'BufferInactiveSign',
+        'BufferInactiveTarget',
+      },
+    }
+  end,
+}
