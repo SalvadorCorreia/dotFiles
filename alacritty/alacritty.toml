@@ -1,6 +1,6 @@
 
 [font]
-#normal = { family = "OpenDyslexic", style = "regular"}
+#normal = { family = "Iosevka Term", style = "regular"}
 size = 15
 
 [env]
