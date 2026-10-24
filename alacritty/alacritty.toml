@@ -13,3 +13,8 @@ padding = { x = 9, y = 4}
 import = [
     "~/.config/alacritty/catppuccin-mocha.toml"
 ]
+
+[[keyboard.bindings]]
+key = "Return"
+mods = "Shift"
+chars = "\u001B\r"
