@@ -1,0 +1,13 @@
+[SddmGreeterTheme]
+Name=hyprlock-match
+Description=FLCL SDDM theme matching hyprlock configuration
+Author=Salvador
+Copyright=(c) 2026 Salvador
+License=MIT
+Type=sddm-theme
+Version=1.0
+MainScript=Main.qml
+ConfigFile=theme.conf
+Theme-Id=hyprlock-match
+Theme-API=2.0
+QtVersion=6
