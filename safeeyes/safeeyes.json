@@ -30,7 +30,7 @@
     "persist_state": false,
     "plugins": [
         {
-            "enabled": true,
+            "enabled": false,
             "id": "donotdisturb",
             "settings": {
                 "skip_break_windows": "",
