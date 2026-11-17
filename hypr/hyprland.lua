@@ -34,6 +34,7 @@ hl.on("hyprland.start", function()
     hl.exec_cmd("waybar & hyprpaper & hypridle")
     hl.exec_cmd("wl-paste -pw wl-copy")
     hl.exec_cmd("systemctl enable bluetooth.service")
+    hl.exec_cmd("safeeyes")
 end)
 
 
